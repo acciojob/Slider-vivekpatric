@@ -62,7 +62,7 @@ function App() {
 
     return (
         <div className="App">
-            <h1 id="review-heading">Reviews</h1>
+            <h1 id="review-heading">Reviews </h1>
             <div id="review-container">
                 <h2 id={`person-${currentIndex}`}>{name}</h2>
                 <img src={image} alt={name} id={`person-${currentIndex}-image`} />
